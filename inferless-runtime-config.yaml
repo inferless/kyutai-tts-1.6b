@@ -6,3 +6,4 @@ build:
     - hf-transfer==0.1.9
     - huggingface-hub==0.33.1
     - pydantic==2.11.7
+    - inferless==0.2.15
