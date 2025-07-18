@@ -15,7 +15,7 @@ os.environ["HF_HUB_ENABLE_HF_TRANSFER"] = '1'
 @inferless.request
 class RequestObjects(BaseModel):
     text: str = Field(default="Hey there! How are you? I had the craziest day today.")
-    voice: Optional[str] "expresso/ex03-ex01_happy_001_channel1_334s.wav"
+    voice: Optional[str] = "expresso/ex03-ex01_happy_001_channel1_334s.wav"
     cfg_coef: Optional[float] = 2.0
     temp: Optional[float] = 0.6
     n_q: Optional[int] = 32
