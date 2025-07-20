@@ -17,8 +17,6 @@ class RequestObjects(BaseModel):
     text: str = Field(default="Hey there! How are you? I had the craziest day today.")
     voice: Optional[str] = "expresso/ex03-ex01_happy_001_channel1_334s.wav"
     cfg_coef: Optional[float] = 2.0
-    temp: Optional[float] = 0.6
-    n_q: Optional[int] = 32
     padding_between: Optional[int] = 1
 
 @inferless.response
