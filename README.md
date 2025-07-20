@@ -7,7 +7,7 @@ Kyutai-TTS-1.6b is Kyutai's open-source, 1.6-billion-parameter real-time text-to
 - GitHub/GitLab template creation with `app.py`, `inferless-runtime-config.yaml` and `inferless.yaml`.
 - Model class in `app.py` with `initialize`, `infer`, and `finalize` functions.
 - Custom runtime creation with necessary system and Python packages.
-- Recommended GPU: NVIDIA A100 for optimal performance.
+- Recommended GPU: NVIDIA A10 for optimal performance.
 - Custom runtime selection in advanced configuration.
 - Final review and deployment on the Inferless platform.
 
