@@ -1,7 +1,7 @@
 import numpy as np
 import torch
 from moshi.models.loaders import CheckpointInfo
-from moshi.models.tts import DEFAULT_DSM_TTS_REPO, DEFAULT_DSM_TTS_VOICE_REPO, TTSModel
+from moshi.models.tts import DEFAULT_DSM_TTS_REPO, TTSModel
 from typing import Optional
 import base64
 import io
