@@ -1,5 +1,5 @@
 # Template - Deploy Kyutai-TTS-1.6b using Inferless
-Kyutai-TTS-1.6b is Kyutai's open-source, 1.6-billion-parameter real-time text-to-speech model that delivers streaming audio generation with ultra-low latency (1.28 second audio shift), supporting English and French languages with voice conditioning through cross-attention embeddings for high-quality, natural-sounding speech synthesis at over 2x real-time speed.
+Kyutai-TTS-1.6b is Kyutai's open-source, 1.6-billion-parameter real-time text-to-speech model that delivers streaming audio generation with ultra-low latency, supporting English and French languages with voice conditioning through cross-attention embeddings for high-quality, natural-sounding speech synthesis at over 2x real-time speed.
 
 ## TL;DR:
 - Deployment of Kyutai-TTS-1.6b model using [moshi](https://pypi.org/project/moshi/).
