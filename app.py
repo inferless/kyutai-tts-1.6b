@@ -52,8 +52,6 @@ class InferlessPythonModel:
         condition_attributes = self.tts_model.make_condition_attributes(
             [voice_path], cfg_coef=inputs.cfg_coef
         )
-
-        print("Generating audio...")
         
         # Generate audio
         pcms = []
@@ -66,8 +64,6 @@ class InferlessPythonModel:
         
         with self.tts_model.mimi.streaming(len(all_entries)):
             result = self.tts_model.generate(all_entries, all_condition_attributes, on_frame=frame_callback)
-
-        print("Done generating.")
         
         # Concatenate audio frames
         audio = np.concatenate(pcms, axis=-1)
